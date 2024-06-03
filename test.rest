@@ -1,0 +1,15 @@
+POST http://localhost:5000/api/users 
+Content-Type: application/json
+
+{
+    "name":"narasimha",
+    "dob":"24-06-2002",
+    "contactNumber":"98989999",
+    "email":"abc@gmail.com",
+    "description":"abacgh"
+
+}
+
+###
+DELETE http://localhost:5000/api/users
+Content-Type: application/json
